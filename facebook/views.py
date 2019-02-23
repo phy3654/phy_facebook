@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from facebook.models import Article, Page
+from facebook.models import Article, Page, Comment
 
 def play(request):
     return render(request, 'play.html')

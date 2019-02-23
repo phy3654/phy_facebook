@@ -192,7 +192,7 @@
     <div class="tab4"><img src="/static/ic_etc.jpg" width="20px" style="margin-top: 14px"></div>
 </div>
 <div class="comment_list">
-    { for comment in feed.comments.all %}
+    {% for comment in feed.comments.all %}
     <div class="comment"><span class="name">{{ comment.author }}</span> {{ comment.text }}</div>
     <div class=“comment__date">{{ comment.created_at }} <a href="코멘트삭제주소"><img src="/static/ic_delete.png" height="16px"></a></div>
     {% endfor %}
