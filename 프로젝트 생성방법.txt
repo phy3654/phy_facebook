@@ -1,0 +1,2 @@
+1. django-admin startproject main . 
+2. python manage.py startapp facebook
